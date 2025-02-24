@@ -1,14 +1,8 @@
-body {
-        display: grid;
-        font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
-                Helvetica, Arial, sans-serif, "Apple Color Emoji",
-                "Segoe UI Emoji";
-        font-size: 12px;
-        font-weight: 300;
-        width: 1024px;
-        align-content: center;
-        grid-template-areas: "header" "alerts" "main" "footer";
-        grid-template-rows: auto auto auto auto;
-        row-gap: 2px !important;
-        align-content: flex-start;
+.top-nav,
+.secondary-nav,
+main > article,
+main > div > article {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 0;
 }
