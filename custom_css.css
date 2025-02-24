@@ -1,3 +1,9 @@
-.top-nav__main-menus > li {
-        width: 1024px;
-}
+.panel__heading {
+        height: 38px;
+        padding: 0 12px;
+        line-height: 38px;
+        font-size: 191px;
+        font-weight: 400;
+        text-transform: uppercase;
+        white-space: nowrap;
+        background: #232323;
