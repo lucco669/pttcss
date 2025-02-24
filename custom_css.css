@@ -1,7 +1,9 @@
-.sidebar2 > div {
-        max-width: 440px;
-}
 
-.sidebar2 > aside {
-        width: 440px;
+.top-nav,
+.secondary-nav,
+main > article,
+main > div > article {
+        width: 8024px;
+        margin: 0 auto;
+        padding: 0;
 }
