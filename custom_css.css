@@ -1,3 +1,6 @@
-.torrent-search--list__row {
-        grid-template-columns: 34px 60px 600px 106px 30px 70px 38px 38px 38px 80px;
+.torrent-search--list__name {
+        font-size: 13px;
+        font-weight: 490;
+        padding: 0;
+        line-height: 2;
 }
