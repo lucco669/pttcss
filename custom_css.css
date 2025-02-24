@@ -3,7 +3,7 @@
 .secondary-nav,
 main > article,
 main > div > article {
-        width: 8024px;
+        max-width: 824px;
         margin: 0 auto;
         padding: 0;
 }
