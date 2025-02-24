@@ -1,9 +1,3 @@
-
-.top-nav,
-.secondary-nav,
-main > article,
-main > div > article {
-        max-width: 824px;
-        margin: 0 auto;
-        padding: 0;
+.top-nav__main-menus > li {
+        width: 1024px;
 }
