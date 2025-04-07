@@ -4,3 +4,8 @@
         padding: 100px;
         line-height: 2;
 }
+
+.torrent-search--list__poster-img {
+    width:44px;
+    border-radius:0
+}
