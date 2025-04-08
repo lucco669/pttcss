@@ -1,5 +1,35 @@
+.data-table>tbody>tr>td,.data-table>tfoot>tr>td{
+    padding:1px;
+    font-size:14px
+    font-weight: 450;
+}
+
 .torrent-search--list__name {
         font-size: 12px;
-        font-weight: 500;
+        font-weight: 450;
         line-height: 1.4;
 }
+
+.torrent-search--list__row{
+    grid-template-columns:30px 30px 1fr 80px 25px 50px 338px 28px 28px 70px
+}
+
+.torrent-search--list__uploader,.torrent-icons{
+    font-size:9px
+}
+
+.torrent-search--list__format>div{
+    display:grid;
+    place-items:center;
+    height:50%
+}
+
+.data-table>tr>th,.data-table>thead>tr>th,.data-table>tbody>tr>th,.data-table>tfoot>tr>th{
+    height:30px;
+    padding:0 6px;
+    line-height:20px;
+    font-size:11px;
+    font-weight:400;
+    text-transform:uppercase;
+    white-space:nowrap;
+    background:#232323
